@@ -1,3 +1,3 @@
 # omnitrix-bot
-A Discord bot with some image commandes
+A Discord bot with some image commandes, image search and avatar shower ...
 if you have any issues contact me here or in discord : Deeznuts#9950
