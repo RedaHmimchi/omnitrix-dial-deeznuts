@@ -20,35 +20,14 @@ client.user.setActivity("with Omnitrix | =help");
 	if(message.content.startsWith("tfo")){
         message.channel.send("hh tfo 3la mok");
     }
-    
 	if(message.content.startsWith("uwu")){    
 	message.channel.send("UwU ");}
-	if(message.content.startsWith("kurt")){    
-	message.channel.send("molat zabobi ");}
-	if(message.content.startsWith("danzo")){    
-	message.channel.send("mal danzo?");}
 	if(message.content.startsWith("69")){    
         message.channel.send("Nicee");
     }	if(message.content.startsWith("UWU")){    
         message.channel.send("UwU ");
     }	if(message.content.startsWith("UwU")){    
-        message.channel.send("OwO ");
-    }
-    if(message.content.startsWith("zaml")){  
-        message.channel.send("bak li zaml ");
-    }
-    if(message.content.startsWith("97ba")){
-        message.channel.send("mok li 97ba");
-    }
-    if(message.content.startsWith("chof")){
-        message.channel.send("hh chof li y7wik");
-    }
-    if(message.content.startsWith("fin")){
-        message.channel.send("fkrk");
-    }
-    if(message.content.startsWith("zbi")){
-        message.channel.send("hh zbi fkrk");
-    }   
+        message.channel.send("OwO "); 
     
         if (message.content.startsWith("=img")) {
   let splitWord = message.toString().split(" ");
@@ -68,14 +47,7 @@ client.user.setActivity("with Omnitrix | =help");
   let page = 1;
 
   request(
-    "https://www.googleapis.com/customsearch/v1?key=" +
-      googKey +
-      "&cx=" +
-      cxKey +
-      "&q=" +
-      searchWrd +
-      "&searchType=image&alt=json&num=10&start=" +
-      page,
+    "https://www.googleapis.com/customsearch/v1?key=" + googKey + "&cx=" + cxKey + "&q=" + searchWrd + "&searchType=image&alt=json&num=10&start=" + page,
     function(err, res, body) {
       let data;
 
